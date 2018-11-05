@@ -1,0 +1,27 @@
+.Movie {
+    background-color: rgb(129, 101, 99);
+    width: 40%;
+    margin: 20px 40px;
+    display: flex;
+}
+
+.Movie__Columns {
+    padding: 20px 10px;
+}
+
+.Movie__Genres {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.Movie__Genre {
+    padding: 3px;
+    color: #999999;
+}
+
+.Movie__Synopsis {
+    color: #999999;
+    font-size: 14px;
+}
+
